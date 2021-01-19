@@ -12,7 +12,7 @@ class SumaCuadradosCubos:
         self.cuadrados = SumaCuadrados(numero)
         self.cubos = SumaCubos(numero)
 
-    def solve(self):
+    def resolver(self):
         return self.cuadrados.sumaPotencia() + self.cubos.sumaPotencia()
 
     def __validarEntrada(self, numero):
@@ -21,5 +21,3 @@ class SumaCuadradosCubos:
             return True
         return False
 
-a = SumaCuadradosCubos(13.22)
-print(a.solve())
