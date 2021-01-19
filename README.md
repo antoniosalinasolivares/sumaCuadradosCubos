@@ -22,4 +22,14 @@ Se debe de hacer una clase que haga la funcion de potencia e indice
 Se debe de hacer otra clase llamada sumadecuadrados que herede la clase potencia y calcule los cuadrados 
 Se debe de hacer otra clase llamada sumadecubos que herede la clase potencia y calcule los cubos 
 Se deben de instanciar ambas clases y calcular el resultado 
-Se pueden agregar cualquier atributo o métodos con forme sean necesarios para el calculo
+Se pueden agregar cualquier atributo o métodos con forme sean necesarios para el calculo.  
+
+### Uso de la solucion  
+ 
+	# importamos la clase SumaCuadradosCubos del archivo sumaCuadradosCubos
+	from sumaCuadradosCubos import SumaCuadradosCubos
+	# instanciamos un objeto, con el constructor que recibe un numero entero.
+	test_object = SumaCuadradosCubos(344)
+	# el metodo resolver regresa el valor deseado, y lo imprimimos
+	print(test.resolver())
+
